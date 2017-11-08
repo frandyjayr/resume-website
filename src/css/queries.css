@@ -1,0 +1,50 @@
+/* X-Small devices */
+/* Small devices */
+@media (min-width: 0px) {
+/*    body {
+        background: white;
+    }*/
+	.left {
+		position: static;
+	}
+	
+}
+
+/* Small devices */
+@media (min-width: 576px) {
+/*
+   body {
+        background: red;
+    }*/
+	.left {
+		position: static;
+	}
+}
+
+/* Medium devices 768*/
+@media (min-width: 776px) {
+/*
+    body {
+        background: blue;
+    }*/
+
+}
+
+/* Large devices 992*/
+@media (min-width: 992px) {
+/*
+    body {
+        background: green;
+    }*/
+	.left {
+		position: fixed;
+	}
+}
+
+/* x-large devices */
+@media (min-width: 1200px) {
+/*    body {
+        background: yellow;
+    }*/
+
+}

@@ -2,6 +2,10 @@
 
     grey #1b1b1b
 */
+html, body {
+	margin: 0;
+	padding: 0;
+}
 
 .left {
 	position: fixed;
@@ -10,4 +14,42 @@
 	background-position: center;
 	background-size: cover;
 	height: 100vh;
+}
+
+#resume-sections {
+	list-style: none;
+}
+
+.bullet {
+	list-style: square;
+}
+
+#pharm-tech li {
+}
+
+.blue {
+	color: #00909c;
+}
+
+#name {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.icon,
+.icon:visited {
+	font-size: 170%;
+	display: inline-block;
+	color: #000000;
+	-webkit-transition: 5s color;
+	-webkit-transition: 0.5s color;
+	-webkit-transition: 0.4s color;
+	transition: 0.4s color;
+}
+
+.icon:hover,
+.icon:active {
+	color: #fff;
 }
